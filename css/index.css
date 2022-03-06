@@ -1,0 +1,333 @@
+/*//////////////////////////////////////////////////////////////////
+[ Apparence Générale ]*/
+
+html
+{
+  scroll-behavior: smooth;
+  width: 100%;
+}
+
+body
+{
+	background: url('../images/fond.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+li, img 
+{ /* non selectable image*/
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+footer
+{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ header ]*/
+.icon-home
+{
+	width:  50%;
+}
+
+.icon-info
+{
+	width: 75%;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ hover ]*/
+.hov:hover
+{
+  opacity: 0.5;
+}
+
+.hov-soft:hover
+{
+  opacity: 0.88;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ page confirmation ]*/
+
+.button-center
+{
+	margin-top: 5%;
+	text-align: center;
+}
+
+.confirmation-text
+{
+	margin-top: 7%;
+	color: white;
+}
+
+.logo-confirmation
+{
+	width: 10%;
+}
+
+
+
+/*==================================VERSION ORDINATEUR==================================*/
+@media screen and (min-width: 500px){
+
+/*//////////////////////////////////////////////////////////////////
+[ Logo et Titre du site de la page d'accueil]*/
+.logo-nom-site h1
+{
+	color: white;
+	font-size: 350%;
+}
+
+.logo-nom-site
+{
+	text-align: center;
+}
+
+.logo-nom-site img
+{
+	width: 6%;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Boutons blanc / Se connecter - Inscription ]*/
+.connexion, .inscription
+{
+	display: block;
+	text-align: center;
+}
+
+.connexion img
+{
+	width: 24%;
+	margin-top: 5%;
+}
+
+.inscription img
+{
+	width: 24%;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Footer ]*/
+footer
+{
+	bottom: 0;
+  color: #707070;
+  height: 2em;
+  left: 0;
+  margin-top: 5%;
+  position: relative;
+  width:100%;
+  line-height: 1.;
+}
+
+footer img
+{
+	width: 15%;
+	padding-bottom: 10px;
+}
+
+.text-footer
+{
+ 	font-size: 80%;
+}
+
+
+.carte-blanche-connexion
+{
+	width:50%;
+}
+
+.carte-blanche-inscription
+{
+	width:50%;
+}
+
+.logo-page-inscription
+{
+	margin-left: auto;
+ 	margin-right: auto;
+	width: 20%
+}
+
+.logo-page-connexion
+{
+	margin-left: auto;
+  margin-right: auto;
+	width: 20%
+}
+
+.form-size{
+	width: 50%;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Page menu des capteurs ]*/
+.taille-carte
+{
+	width: 150%;
+	margin-top: 5%;
+}
+
+.taille-carte-2
+{
+	width: 150%;
+}
+
+.titre-menu-capteurs
+{
+	margin-top: 20px;
+	color: white;
+}
+
+.icon-croix
+{
+	width:36%;
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+
+.icon-home-capteur
+{
+	width: 50%;
+}
+
+
+}
+
+
+
+/*==================================VERSION SMARTPHONE==================================*/
+@media screen and (max-width: 500px){
+
+	/*//////////////////////////////////////////////////////////////////
+[ Logo et Titre du site]*/
+.logo-nom-site h1
+{
+	color: white;
+	font-size: 230%;
+}
+
+.logo-nom-site
+{
+	text-align: center;
+}
+
+.logo-nom-site img
+{
+	width: 20%;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Boutons blanc / Se connecter - Inscription ]*/
+.connexion, .inscription
+{
+	display: block;
+	text-align: center;
+}
+
+.connexion img
+{
+	width: 80%;
+	margin-top: 10%;
+}
+
+.inscription img
+{
+	width: 80%;
+	margin-top: 2%;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Footer ]*/
+footer{
+	bottom: 0;
+  color: #707070;
+  height: 2em;
+  left: 0;
+  margin-top: 15%;
+  position: relative;
+  width:100%;
+  line-height: 1.;
+}
+footer img
+{
+	width: 50%;
+	padding-bottom: 10px;
+}
+
+.text-footer
+{
+ 	font-size: 65%;
+}
+
+.logo-page-inscription
+{
+	margin-left: auto;
+  margin-right: auto;
+	width: 30%
+}
+
+.logo-page-connexion
+{
+	margin-left: auto;
+  margin-right: auto;
+	width: 30%
+}
+
+.form-size{
+	width: 70%;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Page menu des capteurs ]*/
+.taille-carte
+{
+	width: 100%;
+}
+
+.taille-carte-2
+{
+	height: 300px;
+}
+
+.titre-menu-capteurs
+{
+	margin-top: 20px;
+	color: white;
+	font-size: 170%;
+}
+
+.icon-croix
+{
+	width:50%;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+
+.icon-home-capteur
+{
+	width: 38%;
+}
+
+}
